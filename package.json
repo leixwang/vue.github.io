@@ -1,0 +1,17 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leixwang/vue.github.io.git",
+  "author": "Richard <richard@newborntown.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev markdown",
+    "build": "vitepress build markdown",
+    "docs:serve": "vitepress serve markdown"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
