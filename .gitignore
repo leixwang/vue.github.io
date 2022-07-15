@@ -17,8 +17,7 @@ coverage
 stats.html*
 package-lock.json*
 
-/cypress/videos/
-/cypress/screenshots/
+markdown/.vitepress/dist
 
 # Editor directories and files
 .vscode/*
