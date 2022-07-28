@@ -32,6 +32,7 @@ export default {
         items: [
           { text: '介绍', link: '/mermaid/' },
           { text: '流程图样式', link: '/mermaid/flowchart' },
+          { text: '常用样式案例', link: '/mermaid/examples' },
         ]
       }
     ],
