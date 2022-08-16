@@ -56,7 +56,7 @@ export default {
         ]
       },
       {
-        text: 'indexDB 文档',
+        text: 'IndexedDB 文档',
 				collapsible: true,
         collapsed: true,
         items: [
