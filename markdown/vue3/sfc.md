@@ -40,23 +40,23 @@ export default {
 
 ### `<script>`
 
-- 每一个 `*.vue` 文件最多可同时包含一个 `<script>` 块 (不包括[`<script setup>`](/vue3/sfc-setup))。
+- 每一个 `*.vue` 文件最多可同时包含一个 `<script>` 块 (不包括`<script setup>`)。
 
 - 该脚本将作为 ES Module 来执行。
 
-- 其**默认导出**的内容应该是 Vue 组件选项对象，它要么是一个普通的对象，要么是 [defineComponent](/api/global-api.html#definecomponent) 的返回值。
+- 其**默认导出**的内容应该是 Vue 组件选项对象，它要么是一个普通的对象，要么是 `defineComponent` 的返回值。
 
 ### `<script setup>`
 
 - 每个 `*.vue` 文件最多可同时包含一个 `<script setup>` 块 (不包括常规的 `<script>`)
 
-- 该脚本会被预处理并作为组件的 `setup()` 函数使用，也就是说它会在**每个组件实例**中执行。`<script setup>` 的顶层绑定会自动暴露给模板。更多详情请查看 [`<script setup>` 文档](/vue3/sfc-setup)。
+- 该脚本会被预处理并作为组件的 `setup()` 函数使用，也就是说它会在**每个组件实例**中执行。`<script setup>` 的顶层绑定会自动暴露给模板。更多详情请查看 `<script setup>` 文档。
 
 ### `<style>`
 
 - 一个 `*.vue` 文件可以包含多个 `<style>` 标签。
 
-- `<style>` 标签可以通过 `scoped` 或 `module` attribute (更多详情请查看 [SFC 样式特性](/vue3/sfc-style)) 将样式封装在当前组件内。多个不同封装模式的 `<style>` 标签可以在同一个组件中混用。
+- `<style>` 标签可以通过 `scoped` 或 `module` attribute (更多详情请查看 SFC 样式特性) 将样式封装在当前组件内。多个不同封装模式的 `<style>` 标签可以在同一个组件中混用。
 
 ### 自定义块
 
@@ -66,7 +66,7 @@ export default {
 - [vite-plugin-vue-gql: `<gql>`](https://github.com/wheatjs/vite-plugin-vue-gql)
 - [vue-i18n: `<i18n>`](https://github.com/intlify/bundle-tools/tree/main/packages/vite-plugin-vue-i18n#i18n-custom-block)
 
-对 Custom Block 的处理依赖于工具——如果你想要构建自己的自定义块集成，更多详情请查看 [SFC 工具](/vue3/sfc-tools.html#custom-blocks-integration)。
+对 Custom Block 的处理依赖于工具——如果你想要构建自己的自定义块集成，更多详情请查看 SFC 工具。
 
 ## 自动 `name` 推断
 

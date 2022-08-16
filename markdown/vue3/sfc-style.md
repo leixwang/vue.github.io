@@ -146,7 +146,7 @@ sidebarDepth: 1
 
 ### 与组合式 API 一同使用
 
-注入的类可以通过 [`useCssModule`](/api/global-api.html#usecssmodule) API 在 `setup()` 和 `<script setup>` 中使用。对于使用了自定义注入名称的 `<style module>` 模块，`useCssModule` 接收一个对应的 `module` attribute 值作为第一个参数。
+注入的类可以通过 `useCssModule` API 在 `setup()` 和 `<script setup>` 中使用。对于使用了自定义注入名称的 `<style module>` 模块，`useCssModule` 接收一个对应的 `module` attribute 值作为第一个参数。
 
 ```js
 // 默认, 返回 <style module> 中的类
@@ -182,7 +182,7 @@ export default {
 </style>
 ```
 
-这个语法同样也适用于 [`<script setup>`](./sfc-script-setup)，且支持 JavaScript 表达式 (需要用引号包裹起来)
+这个语法同样也适用于 `<script setup>`，且支持 JavaScript 表达式 (需要用引号包裹起来)
 
 ```vue
 <script setup>

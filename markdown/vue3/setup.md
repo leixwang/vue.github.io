@@ -4,7 +4,7 @@ sidebarDepth: 1
 
 # 单文件组件 `<script setup>`
 
-`<script setup>` 是在单文件组件 (SFC) 中使用[组合式 API](/api/composition-api.html) 的编译时语法糖。相比于普通的 `<script>` 语法，它具有更多优势：
+`<script setup>` 是在单文件组件 (SFC) 中使用组合式 `API` 的编译时语法糖。相比于普通的 `<script>` 语法，它具有更多优势：
 
 - 更少的样板内容，更简洁的代码。
 - 能够使用纯 TypeScript 声明 props 和抛出事件。
@@ -57,7 +57,7 @@ import { capitalize } from './helpers'
 
 ## 响应式
 
-响应式状态需要明确使用[响应式 APIs](/api/basic-reactivity.html) 来创建。和从 `setup()` 函数中返回值一样，ref 值在模板中使用的时候会自动解包：
+响应式状态需要明确使用 `响应式 APIs` 来创建。和从 `setup()` 函数中返回值一样，ref 值在模板中使用的时候会自动解包：
 
 ```vue
 <script setup>
@@ -173,13 +173,13 @@ const emit = defineEmits(['change', 'delete'])
 
 - `defineProps` 和 `defineEmits` 都是只在 `<script setup>` 中才能使用的**编译器宏**。他们不需要导入且会随着 `<script setup>` 处理过程一同被编译掉。
 
-- `defineProps` 接收与 [`props` 选项](/api/options-data.html#props)相同的值，`defineEmits` 也接收 [`emits` 选项](/api/options-data.html#emits)相同的值。
+- `defineProps` 接收与 `props` 选项相同的值，`defineEmits` 也接收 `emits` 选项相同的值。
 
 - `defineProps` 和 `defineEmits` 在选项传入后，会提供恰当的类型推断。
 
 - 传入到 `defineProps` 和 `defineEmits` 的选项会从 setup 中提升到模块的范围。因此，传入的选项不能引用在 setup 范围中声明的局部变量。这样做会引起编译错误。但是，它*可以*引用导入的绑定，因为它们也在模块范围内。
 
-如果使用了 TypeScript，[使用纯类型声明来声明 prop 和 emits](#仅限-typescript-的功能) 也是可以的。
+如果使用了 TypeScript，使用纯类型声明来声明 prop 和 emits 也是可以的。
 
 ## `defineExpose`
 
