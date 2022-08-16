@@ -1,7 +1,4 @@
-# Pinia
-
-
-## 介绍
+# Pinia 介绍
 
 **Pinia**最初是在2019年11月左右使用`Composition API`重新设计`Vue Store`的一个试验。从那时起，最初的原则仍然相同，但`Pinia`同时适用于`Vue 2`和`Vue 3`，并且不要求您使用`Composition API`。除了安装和`SSR`之外，两者的`API`都是相同的，这些文档针对`Vue 3`，并在必要时提供有关`Vue 2`的注释，以便`Vue 2`和`Vue 3`的用户都可以阅读！
 

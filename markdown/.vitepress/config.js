@@ -12,8 +12,9 @@ export default {
 	themeConfig: {
 		sidebar: [
       {
-        text: 'TypeScript 常用语法',
+        text: 'TypeScript 文档',
         collapsible: true,
+        collapsed: true,
         items: [
           { text: '基本类型', link: '/typescript/1_type' },
           { text: '接口', link: '/typescript/2_interface' },
@@ -26,6 +27,7 @@ export default {
       {
         text: 'Vue3 文档',
 				collapsible: true,
+        collapsed: true,
         items: [
           { text: '介绍', link: '/vue3/' },
           { text: 'SFC 语法规范', link: '/vue3/sfc' },
@@ -37,6 +39,7 @@ export default {
       {
         text: 'Pinia 文档',
 				collapsible: true,
+        collapsed: true,
         items: [
           { text: '介绍', link: '/pinia/' },
           { text: 'Store', link: '/pinia/store' },
@@ -45,10 +48,21 @@ export default {
       {
         text: 'Mermaid 文档',
 				collapsible: true,
+        collapsed: true,
         items: [
           { text: '介绍', link: '/mermaid/' },
           { text: '流程图样式', link: '/mermaid/flowchart' },
           { text: '常用样式案例', link: '/mermaid/examples' },
+        ]
+      },
+      {
+        text: 'indexDB 文档',
+				collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '介绍', link: '/indexDB/' },
+          // { text: '流程图样式', link: '/indexDB/flowchart' },
+          // { text: '常用样式案例', link: '/indexDB/examples' },
         ]
       }
     ],

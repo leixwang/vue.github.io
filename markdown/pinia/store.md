@@ -1,4 +1,4 @@
-# 介绍
+# `Store` 介绍
 
 `Store`就是保存状态和业务逻辑的实体, 它没有绑定到组件树. 简单的说, 它是承载全局状态. 它就像一个总是存在的组件, 每个组件都可以读取和写入. 它有三个核心概念, `state`, `getters`和`actions`.
 
@@ -45,4 +45,4 @@ export const useUserStore = defineStore('user', {
       this.counter++;
     },
   },
-	```
+```
