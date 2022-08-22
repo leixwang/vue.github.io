@@ -34,6 +34,7 @@ export default {
           { text: 'SFC 工具', link: '/vue3/sfc-tools' },
           { text: '单文件组件 setup', link: '/vue3/sfc-setup' },
           { text: '单文件组件样式特性', link: '/vue3/sfc-style' },
+          { text: '常用的库', link: '/vue3/packages' },
         ]
       },
       {
@@ -61,6 +62,15 @@ export default {
         collapsed: true,
         items: [
           { text: '介绍', link: '/indexDB/' },
+          // { text: '流程图样式', link: '/indexDB/flowchart' },
+          // { text: '常用样式案例', link: '/indexDB/examples' },
+        ]},
+      {
+        text: 'golang 文档',
+				collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '介绍', link: '/golang/' },
           // { text: '流程图样式', link: '/indexDB/flowchart' },
           // { text: '常用样式案例', link: '/indexDB/examples' },
         ]
