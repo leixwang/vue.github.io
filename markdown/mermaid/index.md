@@ -1,4 +1,4 @@
-# Mermaid 介M
+# Mermaid 简介
 
 `Mermaid`是一种基于`Javascript`的绘图工具，使用类似于`Markdown`的语法，使用户可以方便快捷地通过代码创建图表。
 
