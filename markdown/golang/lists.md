@@ -6,6 +6,12 @@
 
 ### [go-admin](https://github.com/GoAdminGroup/go-admin)
 
+### [ferry](https://github.com/lanyulei/ferry)
+本系统是集工单统计、任务钩子、权限管理、灵活配置流程与模版等等于一身的开源工单系统，当然也可以称之为工作流引擎。 致力于减少跨部门之间的沟通，自动任务的执行，提升工作效率与工作质量，减少不必要的工作量与人为出错率。
+
+
+
+
 
 [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)
 
