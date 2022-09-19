@@ -1,12 +1,31 @@
 # Golang 学习手册
 
 
+## 安装Golang
+
+## VScode golang的插件
+
+
+
 # Go 基本语法
 
 ## GO 命令行操作
 
 
 ## 变量
+
+### String
+
+
+### Number
+
+### Booler
+
+
+### Float
+
+
+
 
 ## 常量
 
