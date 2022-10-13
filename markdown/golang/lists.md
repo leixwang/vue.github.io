@@ -1,4 +1,4 @@
-# goland 项目
+# golang 项目
 
 
 
@@ -19,8 +19,10 @@
 
 [gfast](https://github.com/tiger1103/gfast)
 
-[mall](https://github.com/zchengo/mall)
 
+
+[imall](https://github.com/zchengo/imall)
+mall 是一套商城系统，基于 golang、 gin、 gorm、 vue3、element plus、vant weapp 开发，包括 golang服务端、 vue后台管理员前端、微信小程序用户前端 ，主要功能有商品管理、订单管理、用户管理、商品浏览、收藏加购、地址管理、订单查询等
 
 [zeus-admin](https://github.com/bullteam/zeus-admin)
 

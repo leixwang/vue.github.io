@@ -75,7 +75,7 @@ export default {
           { text: '介绍', link: '/golang/' },
           { text: '电商项目', link: '/golang/project' },
           { text: '常用项目列表', link: '/golang/lists' },
-          // { text: '常用样式案例', link: '/indexDB/examples' },
+          { text: '项目目录结构', link: '/golang/layout' },
         ]
       }
     ],

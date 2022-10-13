@@ -25,10 +25,15 @@
 
 
 
+## 第三方接口
 
+### 高德天气
 
+```
+https://restapi.amap.com/v3/weather/weatherInfo?key=066f3c9815683eb7d9302ce23e0b0676&city=110101
+https://restapi.amap.com/v3/weather/weatherInfo?key=066f3c9815683eb7d9302ce23e0b0676&city=110101
 
-
+```
 
 
 ## 参考文档
