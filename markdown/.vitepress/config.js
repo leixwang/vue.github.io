@@ -9,6 +9,7 @@ export default {
 		lineNumbers: true,
 		config: MermaidPlugin,
 	},
+  port: 6006,
 	themeConfig: {
 		sidebar: [
       {
@@ -17,7 +18,7 @@ export default {
         collapsed: true,
         items: [
           { text: '简介', link: '/typescript/0_in' },
-		  { text: '基本类型', link: '/typescript/1_type' },
+		      { text: '基本类型', link: '/typescript/1_type' },
           { text: '接口', link: '/typescript/2_interface' },
           { text: '类', link: '/typescript/3_class' },
           { text: '函数', link: '/typescript/4_function' },
@@ -74,6 +75,7 @@ export default {
         items: [
           { text: '介绍', link: '/golang/' },
           { text: '电商项目', link: '/golang/project' },
+          { text: 'API项目', link: '/golang/api' },
           { text: '常用项目列表', link: '/golang/lists' },
           { text: '项目目录结构', link: '/golang/layout' },
         ]

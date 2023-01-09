@@ -6,7 +6,7 @@
   "author": "Richard <richard@newborntown.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev markdown",
+    "dev": "vitepress dev markdown --port 6006",
     "build": "vitepress build markdown",
     "serve": "vitepress serve markdown"
   },
@@ -14,7 +14,7 @@
     "less": "^4.1.3",
     "markdown-it": "^13.0.1",
     "markdown-it-title": "^4.0.0",
-    "vitepress": "^1.0.0-alpha.4",
+    "vitepress": "^1.0.0-alpha.35",
     "vue": "^3.2.37"
   },
   "dependencies": {
