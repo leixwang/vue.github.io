@@ -15,7 +15,10 @@ export default {
   description: '技术文档',
 	lastUpdated: true,
 	markdown: {
-		theme: 'material-palenight',
+		theme: {
+      light: 'github-light',
+      dark: 'github-light',
+    },
 		lineNumbers: true,
 		// config: MermaidPlugin,
     config: (md) => {
@@ -52,7 +55,7 @@ export default {
           { text: '介绍', link: '/vue3/' },
           { text: 'SFC 语法规范', link: '/vue3/sfc' },
           { text: 'SFC 工具', link: '/vue3/sfc-tools' },
-          { text: '单文件组件 setup', link: '/vue3/sfc-setup' },
+          { text: '单文件组件 setup', link: '/vue3/setup' },
           { text: '单文件组件样式特性', link: '/vue3/sfc-style' },
           { text: '常用的库', link: '/vue3/packages' },
           { text: '教案案例', link: '/vue3/1.class' },

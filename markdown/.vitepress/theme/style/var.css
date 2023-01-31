@@ -22,10 +22,12 @@
   --vp-c-brand: #570DF8;
   --vp-c-brand-light: #570DF8;
   --vp-c-brand-dark: #570DF8;
-	--vp-code-block-bg: rgb(33, 33, 33);
+	--vp-code-block-bg: #efefef;
 
   /* font color */
   --vp-c-indigo: #181c21;
+
+  --vp-code-copy-code-hover-bg: #5570fa;
 }
 .content {
   padding: 0!important;
@@ -43,4 +45,7 @@
 
 .outline-link.active {
 color: #570DF8!important;
+}
+.line-number {
+  color: #181c21!important;
 }

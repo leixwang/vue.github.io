@@ -1,4 +1,4 @@
-name: Deploy rust.leix.wang website
+name: Deploy vue.leix.wang website
 on:
   push:
     branches:
