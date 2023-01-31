@@ -1,13 +1,26 @@
 import MermaidPlugin from "vitepress-plugin-mermaid";
 
 export default {
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }
+    ],
+    [
+      'link',
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }
+    ]
+  ],
   title: '技术文档',
   description: '技术文档',
 	lastUpdated: true,
 	markdown: {
 		theme: 'material-palenight',
 		lineNumbers: true,
-		config: MermaidPlugin,
+		// config: MermaidPlugin,
+    config: (md) => {
+      md.use(require("markdown-it-katex"));
+    },
 	},
   siteTitle: 'My Custom Title',
   port: 6006,

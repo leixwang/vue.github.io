@@ -16,6 +16,16 @@ editLink: true
 
 ![foo](/images/foo.png)
 
+The **Pythagorean equation**: 
+
+$a=\sqrt{b^2 + c^2}$ 
+
+
+$\sqrt{3x-1}+(1+x)^2$
+
+(A) $f(x)=-x$ (B) $f(x)=\left(\dfrac{2}{3}\right)^x$ (C) $2-\sqrt{3}$ (D) $2+\sqrt{3}$
+
+已知函数 $y=\sin(2x+\phi)(-\dfrac{\pi}{2}<\phi<\dfrac{\pi}{2})$ 的图像关于直线 $x=\dfrac{\pi}{3}$ 对称，则 $\phi$ 的值是 $\_\_\_\_\_\_\_$
 
 ### 1. 知识点用敲代码方式去讲解.
 
