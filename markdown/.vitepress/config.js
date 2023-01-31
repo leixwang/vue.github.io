@@ -9,8 +9,13 @@ export default {
 		lineNumbers: true,
 		config: MermaidPlugin,
 	},
+  siteTitle: 'My Custom Title',
   port: 6006,
 	themeConfig: {
+    nav: [
+      { text: 'Vue3', link: '/vue3/' },
+      { text: 'Golang', link: '/golang/' },
+    ],
 		sidebar: [
       {
         text: 'TypeScript 文档',
