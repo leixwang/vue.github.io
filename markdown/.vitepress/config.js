@@ -20,10 +20,10 @@ export default {
       dark: 'github-light',
     },
 		lineNumbers: true,
-		// config: MermaidPlugin,
-    config: (md) => {
-      md.use(require("markdown-it-katex"));
-    },
+		config: MermaidPlugin,
+    // config: (md) => {
+    //   md.use(require("markdown-it-katex"));
+    // },
 	},
   siteTitle: 'My Custom Title',
   port: 6006,
