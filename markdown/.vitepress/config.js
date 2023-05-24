@@ -100,6 +100,15 @@ export default {
           { text: '常用项目列表', link: '/golang/lists' },
           { text: '项目目录结构', link: '/golang/layout' },
         ]
+      },
+      {
+        text: 'C 文档',
+				collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '介绍', link: '/clang/' },
+          { text: '循环结构 while & for', link: '/clang/loop' },
+        ]
       }
     ],
 		
