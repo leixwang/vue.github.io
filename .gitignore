@@ -18,6 +18,7 @@ stats.html*
 package-lock.json*
 
 markdown/.vitepress/dist
+markdown/.vitepress/cache
 
 # Editor directories and files
 .vscode/*
