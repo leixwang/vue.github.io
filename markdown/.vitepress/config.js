@@ -1,6 +1,7 @@
-import MermaidPlugin from "vitepress-plugin-mermaid";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default {
+export default withMermaid({
+
   head: [
     [
       'link',
@@ -20,12 +21,8 @@ export default {
       dark: 'github-light',
     },
 		lineNumbers: true,
-		config: MermaidPlugin,
-    // config: (md) => {
-    //   md.use(require("markdown-it-katex"));
-    // },
 	},
-  siteTitle: 'My Custom Title',
+  siteTitle: 'Think',
   port: 6006,
 	themeConfig: {
     nav: [
@@ -107,7 +104,7 @@ export default {
         collapsed: true,
         items: [
           { text: '介绍', link: '/clang/' },
-          { text: '循环结构 while & for', link: '/clang/loop' },
+          { text: '循环语句 while & for', link: '/clang/loop' },
         ]
       }
     ],
@@ -125,4 +122,7 @@ export default {
       next: 'Proxima pagina'
     }
 	},
-}
+  mermaid: {
+
+  }
+})
