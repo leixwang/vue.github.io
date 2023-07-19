@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./chunks/framework.92bf3306.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"pinia/state.md","filePath":"pinia/state.md","lastUpdated":1689738962000}'),s={name:"pinia/state.md"};function n(r,o,i,c,p,d){return e(),a("div")}const f=t(s,[["render",n]]);export{m as __pageData,f as default};
