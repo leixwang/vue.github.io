@@ -49,3 +49,9 @@ color: #570DF8!important;
 .line-number {
   color: #181c21!important;
 }
+.VPNavBarAppearance {
+  margin-right: 2rem;
+}
+.VPDocFooter {
+  margin-bottom: 4rem;
+}
